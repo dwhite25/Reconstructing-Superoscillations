@@ -85,23 +85,3 @@ The analysis uses standard Python scientific-computing packages:
 - Matplotlib
 
 The included oscilloscope data allow the experimental reconstruction and scatterer-separation analyses to be reproduced directly from the notebook.
-
-## Techniques Demonstrated
-
-**Signal processing**
-- Fourier analysis and FFT-based filtering
-- frequency-domain noise rejection
-- time-series reconstruction
-- signal-to-noise analysis
-
-**Numerical methods**
-- linear least squares
-- parameter-grid optimization
-- complex waveform synthesis
-- numerical error analysis
-
-**Experimental sensing**
-- oscilloscope waveform processing
-- coherent signal reconstruction
-- propagation-delay estimation
-- sub-bandwidth range discrimination
