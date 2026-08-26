@@ -26,7 +26,7 @@ The numerical and experimental workflow consists of four main steps.
 
 1. **Frequency-comb construction**
 
-   A target sinc function is approximated over a finite interval using a finite sum of equally spaced Fourier components, $\psi(t)=\sum_{k=0}^{K-1} A_k e^{i\omega_k t}$. The Fourier coefficients are determined numerically by solving the corresponding linear least-squares problem.
+   A target sinc function is approximated over a finite interval using a finite sum of equally spaced Fourier components, $\psi(t)=\sum_{k=0}^{K-1} A_k e^{i\omega_k t}$. The Fourier coefficients $A_k$ are determined numerically by solving the corresponding linear least-squares problem.
 
 2. **Frequency-comb optimization**
 
@@ -36,7 +36,7 @@ The numerical and experimental workflow consists of four main steps.
 
    The constructed waveform was transmitted through a branched BNC-cable arrangement that produced two propagation paths of adjustable relative length. The return signal was sampled by an oscilloscope at 4 GS/s.
 
-   For each reconstruction, repeated waveform cycles are transformed into the frequency domain using an FFT. The known frequency-comb components are retained while the remaining spectrum is rejected, after which an inverse FFT reconstructs the filtered time-domain waveform.
+   For each reconstruction, repeated waveform cycles are transformed into the frequency domain using FFT. The known frequency-comb components are retained while the remaining spectrum is rejected, after which an inverse FFT reconstructs the filtered time-domain waveform.
 
 4. **Sub-bandwidth scatterer discrimination**
 
@@ -60,10 +60,10 @@ Primary analysis notebook for the project. It includes:
 
 The repository includes the measured return signals used by the notebook:
 
-- 6_10mV_8mV_0ft.csv
-- 6_10mV_8mV_10ft.csv
-- 6_10mV_8mV_20ft.csv
-- 6_10mV_8mV_30ft.csv
+- `6_10mV_8mV_0ft.csv`
+- `6_10mV_8mV_10ft.csv`
+- `6_10mV_8mV_20ft.csv`
+- `6_10mV_8mV_30ft.csv`
 
 These measurements correspond to increasing differences between the two propagation-path lengths in the experimental setup.
 
