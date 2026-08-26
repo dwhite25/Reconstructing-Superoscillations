@@ -1,3 +1,4 @@
+
 # Reconstructing Superoscillations Buried Deeply in Noise
 
 Code and experimental data accompanying the published paper:
@@ -20,7 +21,7 @@ Superoscillations are local regions of a bandlimited signal that oscillate faste
 - Using 99 cycles reduced the reported reconstruction error to **0.16%**
 - The reconstructed waveform experimentally distinguished two scattering paths separated by **0.1875 inverse bandwidths**, below the conventional 0.5 inverse-bandwidth range-resolution criterion used for comparison in the paper
 
-![Range Resolution Well Below the Inverse Bandwidth](https://github.com/user-attachments/assets/434d301d-0015-4b8f-81e6-0d95024cf642)
+![Range Resolution Well Below the Inverse Bandwidth](https://github.com/user-attachments/assets/bef47bab-a1b0-4fb2-ab51-5bb6af78ca60)
 
 *After spectrally filtering noise from the return signal, superoscillations 17dB below the noise floor are recovered with sufficient fidelity to resolve two point-like scatterers at separations well below the inverse bandwidth.*
 
